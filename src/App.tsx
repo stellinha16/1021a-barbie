@@ -1,15 +1,14 @@
-import Header from './componentes/header/Header';
-import Filme from  './componentes/filme/Filme';
-import Footer from './componentes/footer/Footer';
+import Header from './componentes/header/Header'
+import Main from './componentes/main/Main'
+import Footer from './componentes/footer/Footer'
 import './App.css'
-
 
 function App() {
   return (
     <div>
       <Header/>
-      <Filme/>
       <Footer/>
+      <Main/>
     </div>
   );
   }
