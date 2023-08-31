@@ -5,7 +5,7 @@ footer{
     width: 100%;
     justify-content: space-evenly ;
     display: flex;
-    height: 24vh;
+    height: 25vh;
 }
 footer ul li a{
    padding-top: 2vh;
@@ -28,6 +28,6 @@ footer h3{
     position:fixed;
     left:0;
     bottom: 0;
-    margin-left: 50px;
-    margin-bottom: 1vh;
+    margin-left: 45px;
+    margin-bottom: 2vh;
   }
