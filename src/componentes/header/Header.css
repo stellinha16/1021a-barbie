@@ -22,7 +22,7 @@ header h1{
 }
 .header-img{
     width:7vw;
-    position:fixed;
+    position:absolute;
     left:0;
     top:0;
     margin-top: 09px;
