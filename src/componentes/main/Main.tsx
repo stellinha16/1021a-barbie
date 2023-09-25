@@ -74,22 +74,26 @@ export default function Main() {
     return (
         <>
             <div className="campo_pesquisa">
-                <p>Busque um filme</p>
                 <input type="text" 
                        className='botao_pesquisa'
                        placeholder='Pesquise um Filme'
                        onChange={TrataTexto} />
                 {texto && <p>Resultados Para: {texto} </p>}
             </div>
-        
-         <main className="content-main">
-         {filmes.map((filme) => (
-          <Filme key={filme.id}
-            titulo={filme.titulo}
-            sinopse={filme.sinopse}
-            imagem={filme.imagem}
-          />
-        ))}
+            <main className="content-main">
+             
+                {
+                    filmes.filter((filme)=>filme.titulo.toLowerCase().includes(texto)).map(
+                        (filme)=>
+                            <Filme 
+                                key={filme.id}
+                                sinopse={filme.sinopse}
+                                titulo={filme.titulo}
+                                imagem={filme.imagem}
+                            />
+                    )
+                }
+
         </main>
         </>
     )
