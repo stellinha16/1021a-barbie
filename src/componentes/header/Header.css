@@ -20,11 +20,11 @@ header ul li a{
 header h1{
     color:hotpink;
 }
-.header-img{
-    width:7vw;
-    position:absolute;
-    left:0;
-    top:0;
-    margin-top: 00px;
-    margin-left: 150px;
-  }
+.Logo{
+        width:7vw;
+        position:absolute;
+        left:0;
+        top:0;
+        margin-top: 00px;
+        margin-left: 150px;
+}

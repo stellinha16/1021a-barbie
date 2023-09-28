@@ -1,11 +1,12 @@
 import './Footer.css'
-import Link from './../link/Link'
+import Link from '../linknav/LinkNav'
+import Mage from "../img/barbe.png"
 
 export function Footer(){
   return(
     <footer className='footer-footer'>
         <div>
-        <img className='footer-img' src='src/componentes/img/rodape.png' />
+        <img className='footer-img' src={Mage}  alt=''/>
       </div>
      <ul className='Lista'>
     <li>

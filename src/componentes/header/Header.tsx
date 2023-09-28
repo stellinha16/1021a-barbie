@@ -1,25 +1,26 @@
 import './Header.css'
-import Link from './../link/Link'
+import Link from '../linknav/LinkNav'
+import Barbe from '../img/barbiezinha.png'
 
 export function Header(){
   return(
     <header className='header-header'>
       <div>
-      <img className='header-img' src='src/componentes/img/barbie.png' />
+        <img className="Logo"src={Barbe} alt="" />
       </div>
       <nav>
         <ul>
           <li>
-            <Link texto='Home'/>
+            <Link url="/" texto='Home'/>
           </li>
           <li>
-          <Link texto='Noticia'/>
+          <Link url="/Noticia" texto='Noticia'/>
           </li>
           <li>
-          <Link texto='Sobre'/>
+          <Link url="/Sobre" texto='Sobre'/>
           </li>
           <li>
-          <Link texto='Contato'/>
+          <Link url="/Contato" texto='Contato'/>
           </li>
         </ul>
       </nav>
