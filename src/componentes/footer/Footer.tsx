@@ -52,7 +52,7 @@ export function Footer(){
         <Link texto='Barbie Lago Dos Cisnes '/>
           </li>
           <li>
-          <Link texto='Babie-A Princesa & a Pop Star'/>
+          <Link texto='Babie-A Princesa, a Pop Star'/>
           </li>
           <li>
           <Link texto='Barbie-Life in the Dreamhouse'/>
