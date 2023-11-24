@@ -1,6 +1,7 @@
 import './Header.css'
-import Link from '../linknav/LinkNav'
+import LinkNav from '../linknav/LinkNav'
 import Barbe from '../img/barbiezinha.png'
+
 
 export function Header(){
   return(
@@ -11,16 +12,16 @@ export function Header(){
       <nav>
         <ul>
           <li>
-            <Link url="/" texto='Home'/>
+            <LinkNav url="/" texto='Home'/>
           </li>
           <li>
-          <Link url="/Noticia" texto='Noticia'/>
+          <LinkNav url="/Noticia" texto='Noticia'/>
           </li>
           <li>
-          <Link url="/Sobre" texto='Sobre'/>
+          <LinkNav url="/Sobre" texto='Sobre'/>
           </li>
           <li>
-          <Link url="/Contato" texto='Contato'/>
+          <LinkNav url="/Contato" texto='Contato'/>
           </li>
         </ul>
       </nav>

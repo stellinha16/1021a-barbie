@@ -1,5 +1,5 @@
 import './Footer.css'
-import Link from '../linknav/LinkNav'
+import LinkNav from '../linknav/LinkNav'
 import Mage from "../img/barbe.png"
 
 export function Footer(){
@@ -13,16 +13,16 @@ export function Footer(){
         <h3> Produtos </h3>
     </li>
     <li>
-        <Link texto='Compre sua Barbie'/>
+        <LinkNav url="/barbie" texto='Compre sua Barbie'/>
           </li>
           <li>
-          <Link texto='Assistir'/>
+          <LinkNav url="/" texto='Assistir'/>
           </li>
           <li>
-          <Link texto='Acessórios'/>
+          <LinkNav url="/" texto='Acessórios'/>
           </li>
           <li>
-          <Link texto='Roupas'/>
+          <LinkNav url="/" texto='Roupas'/>
           </li>
     </ul>
 
@@ -31,16 +31,16 @@ export function Footer(){
         <h3> Informações</h3>
     </li>
     <li>
-        <Link texto='Cookies'/>
+        <LinkNav url="/" texto='Cookies'/>
           </li>
           <li>
-          <Link texto='Sobre'/>
+          <LinkNav url="/" texto='Sobre'/>
           </li>
           <li>
-          <Link texto='Atendimento'/>
+          <LinkNav url="/" texto='Atendimento'/>
           </li>
           <li>
-          <Link texto='Feedback'/>
+          <LinkNav url="/" texto='Feedback'/>
           </li>
     </ul>
 
@@ -49,16 +49,16 @@ export function Footer(){
         <h3>Filmes</h3>
     </li>
     <li>
-        <Link texto='Barbie Lago Dos Cisnes '/>
+        <LinkNav url="/" texto='Barbie Lago Dos Cisnes '/>
           </li>
           <li>
-          <Link texto='Babie-A Princesa & a Pop Star'/>
+          <LinkNav url="/" texto='Babie-A Princesa & a Pop Star'/>
           </li>
           <li>
-          <Link texto='Barbie-Life in the Dreamhouse'/>
+          <LinkNav url="/" texto='Barbie-Life in the Dreamhouse'/>
           </li>
           <li>
-          <Link texto='Barbie Rainha das Fadas'/>
+          <LinkNav url="/" texto='Barbie Rainha das Fadas'/>
           </li>
     </ul>
 
@@ -67,16 +67,16 @@ export function Footer(){
         <h3>Sobre nós</h3>
     </li>
     <li>
-        <Link texto='Informações corporativas '/>
+        <LinkNav url="/" texto='Informações corporativas '/>
           </li>
           <li>
-          <Link texto='Comunidade'/>
+          <LinkNav url="/" texto='Comunidade'/>
           </li>
           <li>
-          <Link texto='Acessibilidade'/>
+          <LinkNav url="/" texto='Acessibilidade'/>
           </li>
           <li>
-          <Link texto='Carreiras'/>
+          <LinkNav url="/" texto='Carreiras'/>
           </li>
     </ul>
     </footer>
