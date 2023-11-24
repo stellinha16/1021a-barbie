@@ -16,13 +16,13 @@ export function Footer(){
         <LinkNav url="/barbie" texto='Compre sua Barbie'/>
           </li>
           <li>
-          <LinkNav url="/" texto='Assistir'/>
+          <LinkNav url="/m" texto='Assistir'/>
           </li>
           <li>
-          <LinkNav url="/" texto='Acessórios'/>
+          <LinkNav url="/n" texto='Acessórios'/>
           </li>
           <li>
-          <LinkNav url="/" texto='Roupas'/>
+          <LinkNav url="/o" texto='Roupas'/>
           </li>
     </ul>
 
@@ -31,16 +31,16 @@ export function Footer(){
         <h3> Informações</h3>
     </li>
     <li>
-        <LinkNav url="/" texto='Cookies'/>
+        <LinkNav url="/a" texto='Cookies'/>
           </li>
           <li>
-          <LinkNav url="/" texto='Sobre'/>
+          <LinkNav url="/b" texto='Sobre'/>
           </li>
           <li>
-          <LinkNav url="/" texto='Atendimento'/>
+          <LinkNav url="/c" texto='Atendimento'/>
           </li>
           <li>
-          <LinkNav url="/" texto='Feedback'/>
+          <LinkNav url="/d" texto='Feedback'/>
           </li>
     </ul>
 
@@ -49,16 +49,16 @@ export function Footer(){
         <h3>Filmes</h3>
     </li>
     <li>
-        <LinkNav url="/" texto='Barbie Lago Dos Cisnes '/>
+        <LinkNav url="/e" texto='Barbie Lago Dos Cisnes '/>
           </li>
           <li>
-          <LinkNav url="/" texto='Babie-A Princesa & a Pop Star'/>
+          <LinkNav url="/f"texto='Babie-A Princesa & a Pop Star'/>
           </li>
           <li>
-          <LinkNav url="/" texto='Barbie-Life in the Dreamhouse'/>
+          <LinkNav url="/g" texto='Barbie-Life in the Dreamhouse'/>
           </li>
           <li>
-          <LinkNav url="/" texto='Barbie Rainha das Fadas'/>
+          <LinkNav url="/h" texto='Barbie Rainha das Fadas'/>
           </li>
     </ul>
 
@@ -67,16 +67,16 @@ export function Footer(){
         <h3>Sobre nós</h3>
     </li>
     <li>
-        <LinkNav url="/" texto='Informações corporativas '/>
+        <LinkNav url="/i" texto='Informações corporativas '/>
           </li>
           <li>
-          <LinkNav url="/" texto='Comunidade'/>
+          <LinkNav url="/j" texto='Comunidade'/>
           </li>
           <li>
-          <LinkNav url="/" texto='Acessibilidade'/>
+          <LinkNav url="/k" texto='Acessibilidade'/>
           </li>
           <li>
-          <LinkNav url="/" texto='Carreiras'/>
+          <LinkNav url="/l" texto='Carreiras'/>
           </li>
     </ul>
     </footer>
